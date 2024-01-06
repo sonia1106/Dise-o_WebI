@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagenes</title>
+    <body>
+        <header style=" background-color: skyblue;  ;">
+            <h2 style="margin: 0;">flores</h2>
+        </header>
+        <main>
+            <form>
+                
+                <img src="marguerite.jpg" width=200 height=200 />  <br>
+                <label for="nombre">Margarita</label> <br> <br>
+                <img src ="rosa.webp"width=200 height=200 />  <br>
+                <label for="nombre">Rosa</label> <br> <br>
+                <img src ="lirio.webp"width=200 height=200 />  <br>
+                <label for="nombre">Lirio</label> <br> <br>
+                <img src ="hortensia.webp"width=200 height=200 />  <br>
+                <label for="nombre">Hortensia</label> <br> <br>
+                <img src ="orquidea.webp"width=200 height=200 />  <br>
+                <label for="nombre">Orquidea</label> <br> <br>
+                <img src ="peonia.webp"width=200 height=200 />  <br>
+                <label for="nombre">Peonia</label> <br> <br>
+                <img src ="tulipan.webp"width=200 height=200 />  <br>
+                <label for="nombre">Tulipan</label> <br> <br>
+                <img src ="flor_del_cerezo.webp"width=200 height=200 />  <br>
+                <label for="nombre">flor de Serezo</label> <br> <br>
+            </form>
+        </main>
+    </body>
