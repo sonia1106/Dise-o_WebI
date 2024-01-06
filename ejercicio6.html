@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=divice-width, initial- scale=1.0">
+    <title>formularios</title>
+    <link
+</head>
+<body>
+    <header style=" background-color: #333; ;">
+        <h2 style="margin: 0;">Uso de formularios</h2>
+    </header>
+    <main>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required data-nombre> <br> <br> /*data set identificadore que me permiten llamar lo que necesito*/
+            <label for="correo">Correo</label>
+            <input type="email"name="email" id="email" required data-email> <br> <br> </input>
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" name="date" id="data" required data-date><br> <br>
+            <label for="foto">Fotografia</label>
+            <input type="file" name ="file" id="file" accept="image/*" data-foto> <br> <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
