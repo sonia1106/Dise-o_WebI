@@ -1,0 +1,48 @@
+.caja{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: azure;
+    background-color: #333;
+    border-radius: 30px 0;
+    box-shadow:6px 10px 5px rgba(0, 0, 0, 0,5) ; 
+    top: 100px;
+    left: 300px;
+}
+
+.caja p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table tr th {
+    border: solid;
+    
+}
+table tr td{
+    border: solid;
+}
+header{
+    border-radius: 10px ;
+    background-color: lightslategray;
+    padding: 1rem;
+}
+nav ul li a{
+    color: black ;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    padding: 0;
+}
+form{
+    background-color: #8c8c8c;
+    text-align: center;
+}
+table{
+    background-color: #7d675c;
+    text-align: center;
+    padding: 2rem;
+    
+}
+form img{
+    box-shadow:2px 5px 5px rgba(0.5, 0, 5, 2) ;    
+}
