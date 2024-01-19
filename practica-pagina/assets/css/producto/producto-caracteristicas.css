@@ -1,0 +1,12 @@
+.producto__carac {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.producto__item{
+    padding: 1px 30px;
+    color: #eb9a17;
+}
+.producto__dato{
+    color: rgb(100, 86, 24);
+}

@@ -1,0 +1,19 @@
+.productos{
+    background-color:#d2db99;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    
+}
+@media screen and (min-width:0) {
+   .productos {
+        flex-direction: row;
+        
+      }
+    }
+    @media (max-width: 780px) {
+        .productos{
+          flex-direction: column;
+        }
+     }

@@ -1,0 +1,15 @@
+.avatares{
+    display: flex;
+    justify-content: space-around;
+
+}
+@media screen and (min-width:0) {
+  .avatares{
+    flex-direction: row;
+  }
+}
+@media (max-width: 780px) {
+    .avatares {
+      flex-direction: column;
+    }
+  }

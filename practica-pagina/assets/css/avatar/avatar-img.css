@@ -1,0 +1,23 @@
+.avatar__img{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px black
+  }
+.avatar__img--per1{
+   background-image: url("../../img/us1.png");
+}
+.avatar__img--per2{
+    background-image: url("../../img/us2.webp");
+ }
+ .avatar__img--per3{
+    background-image: url("../../img/us3.webp");
+ }
+ .avatar__img--per4 {
+   background-image: url("../../img/us4.webp");
+ }
+
+ 
