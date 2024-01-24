@@ -1,0 +1,35 @@
+.cabecera{
+    display: flex;
+    background: #016A70;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-block: 5rem;
+    flex-direction: column;
+
+}
+.lista{
+    background: #ffffff;
+    flex-direction:row;
+    display: flex;
+}
+.lista__nav{
+    list-style: none;
+    display: flex;
+   
+
+}
+
+
+.logo__cabecera{
+    width: 100px;
+}
+.logo__cabecera2{
+    width: 150px;
+}
+.menu__item{
+    padding: 1rem;
+    
+    
+}
