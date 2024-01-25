@@ -10,6 +10,7 @@
 
 }
 .lista{
+    border-radius: 5px;
     background: #ffffff;
     flex-direction:row;
     display: flex;
@@ -21,15 +22,15 @@
 
 }
 
-
 .logo__cabecera{
     width: 100px;
+    justify-items: flex-start;
 }
 .logo__cabecera2{
     width: 150px;
+    justify-content: end;
+    
 }
 .menu__item{
-    padding: 1rem;
-    
-    
+    padding: 1rem; 
 }

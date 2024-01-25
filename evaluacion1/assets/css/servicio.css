@@ -1,0 +1,40 @@
+.servicio__cab{
+ display: flex;   
+ align-items: center;
+ flex-direction:column ;
+}
+.ser__em{
+    align-items: center;
+}
+.servicio__central{
+    text-align: center;
+  
+}
+.servicio__titulo{
+    font-size: 28px;
+}
+.servicio__sub{
+    font-size: 36px;
+
+}
+.servicio__lista{
+   display: flex;
+   
+   
+}
+.servicio{
+    justify-content: space-around;
+   
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px;
+}
+.servicio__imagen{
+    width: 80px;
+    height: 80px;
+}
+.servicio__titulo2{
+    font-size: 20px;
+}
+.servicio__descripcion{
+    font-size: 16px;
+}
