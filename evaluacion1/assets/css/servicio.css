@@ -15,26 +15,39 @@
 }
 .servicio__sub{
     font-size: 36px;
-
+    padding-bottom: 3rem;
 }
 .servicio__lista{
    display: flex;
-   
-   
+   padding-bottom: 2rem;
+ 
 }
 .servicio{
-    justify-content: space-around;
-   
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 1px;
+    align-items: center; 
+    border-collapse: separate;
+    margin-right: 2rem;
+    width: 333px;
+    height: 313px;
+    
 }
 .servicio__imagen{
+    
     width: 80px;
     height: 80px;
+    
+    
+    
 }
 .servicio__titulo2{
     font-size: 20px;
+    text-align: center;
 }
 .servicio__descripcion{
     font-size: 16px;
+    text-align: center;
+
 }

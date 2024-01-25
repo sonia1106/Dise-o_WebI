@@ -1,0 +1,7 @@
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.produto{
+}
