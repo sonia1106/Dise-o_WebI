@@ -10,27 +10,74 @@
 
 }
 .lista{
+    height: 80px;
     border-radius: 5px;
     background: #ffffff;
     flex-direction:row;
     display: flex;
+
 }
 .lista__nav{
     list-style: none;
     display: flex;
-   
-
+    font-family: 'Poppins', sans-serif;    
+    color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo__cabecera{
-    width: 100px;
-    justify-items: flex-start;
-}
-.logo__cabecera2{
-    width: 150px;
-    justify-content: end;
-    
+    height: 35px;
+    justify-content: start;
+    align-items: center;
 }
 .menu__item{
     padding: 1rem; 
+}
+.usuario{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.usuario__foto{
+    width: 37px;
+    height: 37px;
+    justify-content: flex-end;
+}
+.usuario__letras{
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 0.3rem;
+}
+
+.usuario__we{
+    font-size: 12px;
+}
+.usuario__mensaje{
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+}
+.banner__parrajo{
+    padding: 3rem;
+    font-family: 'Poppins', sans-serif; 
+}
+.baner__inicio{
+    color: #ffffff;  
+   font-weight:bold;
+   font-size: 28px;
+}
+.banner__titulo{
+    font-size: 48px;
+    color: #FFFFDD;
+    font-weight: bolder;
+    padding-top: 1rem;
+
+}
+.banner__frase{
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 1rem;
+    letter-spacing: 1px;
 }
